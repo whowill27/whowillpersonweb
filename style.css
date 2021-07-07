@@ -1,42 +1,86 @@
 body{
-    margin: 0;
-    padding: 0;
-    background-color: black;
+    background-color:darkslategrey;
+    background-image: radial-gradient();
     background-size: cover;
+    font-style:initial;
+    text-shadow: 100ex;
+    font-family: 'Century Gothic',sans-serif;
   }
-  .box{
-    border-radius: 2%;
-    width: 700px;
-    background: rgb(255, 255, 255);
+.banner{
+  padding: 0.1% 0.2%;
+    text-align: center;
+    background: white;
+    color: darkslategray;
+    font-size: 30px;
+    font-family: 'Century Gothic',sans-serif;
+}
+.box{
+  max-width: 100%;
+    text-align: center;
+    border:3px solid black;
+    padding-bottom: 10px;
+    margin-top: -19cm;
+    margin-left: auto;
+    border-style: none ;
+    background: darkslategrey;
     padding: 40px;
     text-align: center;
     margin: auto;
     margin-top: 0%;
-    color: rgb(0, 0, 0);
     font-family: 'Century Gothic',sans-serif;
-    font-size: 50%;
-  }
-  .box-jpg{
+    font-size: 3.5ex;
+    border-collapse: collapse;
+    color: rgb(255, 255, 255);
+    box-shadow: white;
+    text-shadow: 100ex;
+}
+.box-img{
+  max-width: 100%;
+  border-style: solid;
+  border-color: white;
     border-radius: 50%;
-    width: 260px;
-    height: 260px;
+    width: 115px;
+    height: 115px;
+      padding: 0.5px 1px;
   }
-.perso { 
-  background: rgb(255, 174, 0);
-  border-radius: 0.3rem;
-  padding: 0.1rem;
-  font-size: large;
-  font-family: 'Times New Roman';
-}
-.parag {
-  font-size: small;
-  font-family: 'Times New Roman';
-}
-.curi {
-  font-size: x-large;
-  font-family: 'Times New Roman';
-}
-.tabl {
-  font-family: 'Times New Roman';
-  font-size: small;
-}
+  .container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .container img {
+    width: 60%;
+    height: auto;
+  }
+  img:hover {
+    animation: shake 1.0s;
+    animation-iteration-count: infinite;
+  }
+  .all{
+    text-align: center;
+    font-size: medium;
+    font-family: 'Century Gothic',sans-serif;
+    color: white;
+    max-width: 100%;
+  }
+  .con{
+    text-align: center;
+    font-size:medium;
+    color: rgb(255, 255, 255);
+    max-width: 100%;
+  }
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+  
+  
